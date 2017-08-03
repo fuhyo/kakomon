@@ -15,4 +15,5 @@
  $kakomon_obj_a->setYear("2015");
  
  echo $kakomon_obj_a->getYear();
+ 
 ?>
