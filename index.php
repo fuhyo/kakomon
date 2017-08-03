@@ -1,8 +1,25 @@
 <?php
+/*
+git hub
+
+https://github.com/fuhyo/kakomon
+git init
+git remote add origin https://github.com/fuhyo/kakomon
+git add filename
+git commit -m "add new file"
+git push origin master
+
+git status
+git add [filename]
+git commit 
+
+
+*/
  class Kakomon
  {
 	 //
 	 private $year;
+	 private $hoge;
 	 public function setYear($year){
 		 $this->year = (string)filter_var($year);
 	 }
